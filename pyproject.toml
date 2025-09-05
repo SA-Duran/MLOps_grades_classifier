@@ -20,7 +20,8 @@ dependencies = [
     "scikit-learn",
     "catboost",
     "xgboost",
-    "dill"
+    "dill",
+    "Flask"
 ]
 
 [tool.setuptools.packages.find]
