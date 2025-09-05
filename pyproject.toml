@@ -19,7 +19,8 @@ dependencies = [
     "matplotlib",
     "scikit-learn",
     "catboost",
-    "xgboost"
+    "xgboost",
+    "dill"
 ]
 
 [tool.setuptools.packages.find]
