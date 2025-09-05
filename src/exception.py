@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 def error_message_detail(error: BaseException) -> str:
     exc_type, exc_value, exc_tb = sys.exc_info()
     if exc_tb is None:
